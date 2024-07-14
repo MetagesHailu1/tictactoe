@@ -1,0 +1,247 @@
+/* Add these styles to your existing CSS file or create a new one */
+
+.game {
+  display: flex;
+  /* flex-direction: row; */
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  
+}
+
+.game-board {
+  
+  margin: 0px 50px 40px 190px;
+}
+
+.status {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.board-row {
+  display: flex;
+}
+
+.square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  border: 4px solidrgb(148, 122, 172)c;
+  border-radius: 6px;
+  background-color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.square:hover {
+  background-color: #f2f2f2;
+}
+
+.game-info {
+  text-align: center;
+  
+}
+
+ol {
+  padding-left: 20px;
+}
+
+.popup {
+
+  top: 50;
+  left: 50;
+  width: 150px;
+  height: 128px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  
+  justify-content: center;
+  align-items: center;
+border-radius: 4px;
+position: fixed;
+  
+}
+
+.popup h2 {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.popup button {
+  padding: 10px 20px;
+  background-color: #fff;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+
+.popup button:hover {
+  background-color: #f2f2f2;
+}
+
+
+.History {
+  
+  background-color: rgb(41, 39, 39);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #f1eded;
+  padding: 5px 10px;
+  transition: background-color 0.3s ease;
+}
+
+.History:hover {
+  background-color: #f2f2f2;
+}
+
+
+body {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin: 0;
+  
+  padding: 0;
+}
+
+
+/* 
+
+
+.square {
+  background-color: #f2f2f2;
+  
+  width: 80px;
+  height: 80px;
+   border: 6px solid #3f6b6d;
+  color: #3a3737;
+  font-size: 80px;
+  font-weight: bold;
+  border-radius: 7px;
+  
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.square:hover {
+  background-color: #5d97a5;
+}
+
+
+.status {
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 85px;
+}
+
+.status h1 {
+  font-size: 24px;
+  color: #4923a1;
+}
+
+.status b {
+  font-weight: bold;
+}
+
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.popup h2 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.popup button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.popup button:hover {
+  background-color: #000;
+}
+
+
+ .game {
+  display: flex;
+        
+  align-items: center;
+  
+} 
+ .game-board {
+   margin-left: 450px;
+  
+} 
+
+.game-1 {
+  font-size: 14px;
+  color: #09dabe;
+  margin-top: 20px;
+}
+
+.game-1 span {
+  color: #6b135f;
+  
+} 
+
+
+.History {
+  background-color: rgb(19, 9, 9);
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  color: #f1eded;
+  padding: 5px 10px;
+  transition: background-color 0.3s ease;
+}
+
+.History:hover {
+  background-color: #f2f2f2;
+}
+
+
+body {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+ol {
+  padding-left: 50px;
+  padding-top: 50px;
+  margin-top: 95px;
+}
+
+span {
+  font-weight: bold;
+} */
