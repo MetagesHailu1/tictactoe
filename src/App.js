@@ -286,6 +286,7 @@ function Counter() {
     setCount(count - 1);
   };
 
+
   return (
     <div>
       <h1>Counter</h1>
