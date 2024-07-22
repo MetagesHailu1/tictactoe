@@ -23,7 +23,6 @@ function Board({ xIsNext, squares, onPlay }) {
     }
     onPlay(nextSquares);
   }
-
   return (
     <>
       <div className="board-row">
@@ -45,7 +44,6 @@ function Board({ xIsNext, squares, onPlay }) {
     </>
   );
 }
-
 export default function Game() {
   const [history, setHistory] = useState([Array(9).fill(null)]);
   const [currentMove, setCurrentMove] = useState(0);
