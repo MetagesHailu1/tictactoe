@@ -7,6 +7,7 @@ function Square({ value, onSquareClick }) {
       {value}
     </button>
   );
+  
 }
 
 function Board({ xIsNext, squares, onPlay }) {
